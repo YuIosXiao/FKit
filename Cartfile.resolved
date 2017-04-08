@@ -1,0 +1,5 @@
+github "networkextension/AxLogger" "0.2.4"
+github "groue/GRDB.swift" "6cede4975c50d1edbc2393e8e935558236e98f2c"
+github "Hearst-DD/ObjectMapper" "2.2.5"
+github "networkextension/SwiftyJSON" "3.1.4"
+git "https://bitbucket.org/yarshure/mmdb-swift.git" "0.2.3"
