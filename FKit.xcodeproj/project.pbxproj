@@ -24,6 +24,17 @@
 		69801F541E98FC8800F063DC /* SFModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69801F531E98FC8800F063DC /* SFModel.swift */; };
 		69801F561E98FCF600F063DC /* FKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69801F551E98FCF600F063DC /* FKit.swift */; };
 		69801F581E98FF0F00F063DC /* SFPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69801F571E98FF0F00F063DC /* SFPolicy.swift */; };
+		69801F5A1E9A385800F063DC /* NetInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69801F591E9A385800F063DC /* NetInfo.swift */; };
+		69801F5C1E9A38A300F063DC /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69801F5B1E9A38A300F063DC /* Platform.swift */; };
+		69801F621E9A3A3200F063DC /* RequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69801F611E9A3A3200F063DC /* RequestHelper.swift */; };
+		69801F641E9A3A7B00F063DC /* SFRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69801F631E9A3A7A00F063DC /* SFRule.swift */; };
+		69801F661E9A3AD300F063DC /* SFRequestInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69801F651E9A3AD300F063DC /* SFRequestInfo.swift */; };
+		69801F681E9A3B6D00F063DC /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69801F671E9A3B6D00F063DC /* Consts.swift */; };
+		69801F6A1E9A3BCC00F063DC /* SFHTTPHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69801F691E9A3BCC00F063DC /* SFHTTPHeader.swift */; };
+		69801F6C1E9A3BF300F063DC /* SFTraffic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69801F6B1E9A3BF300F063DC /* SFTraffic.swift */; };
+		69801F6E1E9A3C7600F063DC /* SFVPNStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69801F6D1E9A3C7600F063DC /* SFVPNStatistics.swift */; };
+		69801F701E9A3CE900F063DC /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69801F6F1E9A3CE900F063DC /* util.swift */; };
+		69801F721E9A3DBB00F063DC /* String+FKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69801F711E9A3DBB00F063DC /* String+FKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +57,17 @@
 		69801F531E98FC8800F063DC /* SFModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFModel.swift; sourceTree = "<group>"; };
 		69801F551E98FCF600F063DC /* FKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FKit.swift; sourceTree = "<group>"; };
 		69801F571E98FF0F00F063DC /* SFPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFPolicy.swift; sourceTree = "<group>"; };
+		69801F591E9A385800F063DC /* NetInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetInfo.swift; sourceTree = "<group>"; };
+		69801F5B1E9A38A300F063DC /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		69801F611E9A3A3200F063DC /* RequestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHelper.swift; sourceTree = "<group>"; };
+		69801F631E9A3A7A00F063DC /* SFRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFRule.swift; sourceTree = "<group>"; };
+		69801F651E9A3AD300F063DC /* SFRequestInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFRequestInfo.swift; sourceTree = "<group>"; };
+		69801F671E9A3B6D00F063DC /* Consts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		69801F691E9A3BCC00F063DC /* SFHTTPHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFHTTPHeader.swift; sourceTree = "<group>"; };
+		69801F6B1E9A3BF300F063DC /* SFTraffic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFTraffic.swift; sourceTree = "<group>"; };
+		69801F6D1E9A3C7600F063DC /* SFVPNStatistics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFVPNStatistics.swift; sourceTree = "<group>"; };
+		69801F6F1E9A3CE900F063DC /* util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
+		69801F711E9A3DBB00F063DC /* String+FKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+FKit.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +112,10 @@
 		6952F8D11E98F46D003EB1CB /* FKit */ = {
 			isa = PBXGroup;
 			children = (
+				69801F691E9A3BCC00F063DC /* SFHTTPHeader.swift */,
+				69801F631E9A3A7A00F063DC /* SFRule.swift */,
+				69801F651E9A3AD300F063DC /* SFRequestInfo.swift */,
+				69801F611E9A3A3200F063DC /* RequestHelper.swift */,
 				69801F531E98FC8800F063DC /* SFModel.swift */,
 				69801F511E98FC4900F063DC /* ProxyGroupSettings.swift */,
 				69801F4F1E98FC3600F063DC /* General.swift */,
@@ -100,7 +126,14 @@
 				6952F8D21E98F46D003EB1CB /* FKit.h */,
 				6952F8D31E98F46D003EB1CB /* Info.plist */,
 				69801F551E98FCF600F063DC /* FKit.swift */,
+				69801F6F1E9A3CE900F063DC /* util.swift */,
 				69801F571E98FF0F00F063DC /* SFPolicy.swift */,
+				69801F591E9A385800F063DC /* NetInfo.swift */,
+				69801F5B1E9A38A300F063DC /* Platform.swift */,
+				69801F671E9A3B6D00F063DC /* Consts.swift */,
+				69801F6B1E9A3BF300F063DC /* SFTraffic.swift */,
+				69801F6D1E9A3C7600F063DC /* SFVPNStatistics.swift */,
+				69801F711E9A3DBB00F063DC /* String+FKit.swift */,
 			);
 			path = FKit;
 			sourceTree = "<group>";
@@ -189,14 +222,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				6952F8DB1E98F4C0003EB1CB /* SFConfig.swift in Sources */,
+				69801F681E9A3B6D00F063DC /* Consts.swift in Sources */,
 				69801F541E98FC8800F063DC /* SFModel.swift in Sources */,
+				69801F661E9A3AD300F063DC /* SFRequestInfo.swift in Sources */,
 				69801F581E98FF0F00F063DC /* SFPolicy.swift in Sources */,
+				69801F621E9A3A3200F063DC /* RequestHelper.swift in Sources */,
+				69801F6C1E9A3BF300F063DC /* SFTraffic.swift in Sources */,
+				69801F5A1E9A385800F063DC /* NetInfo.swift in Sources */,
 				69801F401E98F99B00F063DC /* SFRuler.swift in Sources */,
 				69801F561E98FCF600F063DC /* FKit.swift in Sources */,
+				69801F6E1E9A3C7600F063DC /* SFVPNStatistics.swift in Sources */,
+				69801F5C1E9A38A300F063DC /* Platform.swift in Sources */,
 				69801F421E98F9AE00F063DC /* SFRuleResult.swift in Sources */,
 				69801F441E98F9BD00F063DC /* SFProxy.swift in Sources */,
 				69801F501E98FC3600F063DC /* General.swift in Sources */,
+				69801F701E9A3CE900F063DC /* util.swift in Sources */,
+				69801F721E9A3DBB00F063DC /* String+FKit.swift in Sources */,
+				69801F641E9A3A7B00F063DC /* SFRule.swift in Sources */,
 				69801F521E98FC4900F063DC /* ProxyGroupSettings.swift in Sources */,
+				69801F6A1E9A3BCC00F063DC /* SFHTTPHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +364,7 @@
 				);
 				INFOPLIST_FILE = FKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.squash.FKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -345,6 +390,7 @@
 				);
 				INFOPLIST_FILE = FKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.squash.FKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";

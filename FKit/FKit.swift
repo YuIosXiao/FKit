@@ -21,6 +21,7 @@ public class FKit {
         //return URL.init(fileURLWithPath: "")
         
     }
+    static var LimitSpeedSimgl:UInt = 0
     static func settingURL() ->URL {
         return self.groupContainerURL().appendingPathComponent(kProxyGroupFile)
     }
